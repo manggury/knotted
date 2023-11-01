@@ -25,15 +25,19 @@
     margin: 0 auto;
 }
 
-.header_wrap .gnb ul {
+.header_wrap .gnb>ul {
     display: flex;
     gap: 60px;
 }
 
-.header_wrap .gnb>ul>li> {
+.header_wrap .gnb>ul>li {
     font-size: 24px;
     font-weight: 600;
     color: #fff;
+}
+
+.header_wrap .gnb .sub {
+    /* display: none; */
 }
 
 .mainVisual {
