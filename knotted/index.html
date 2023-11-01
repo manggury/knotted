@@ -6,9 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/slick.css">
     <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/slick.min (1).js"></script>
     <script src="./js/custom.js" defer></script>
+
 </head>
 
 <body>
@@ -35,8 +40,134 @@
                 </ul>
             </div>
         </header>
-        <main class="main"></main>
-        <footer class="footer"></footer>
+        <main class="main">
+            <section class="mainVisual">
+                <div class="mainSlide">
+                    <div class="itm itm01"></div>
+                    <div class="itm itm02"></div>
+                </div>
+                <div class="arrows">
+                    <i class="xi-arrow-left left"></i>
+                    <i class="xi-arrow-right right"></i>
+                </div>
+            </section>
+            <section class="mainMenu">
+                <div class="menu_wrap">
+                    <div class="left_box">
+                        <h2>OUR BEST MENU</h2>
+                        <div class="text_box01">
+                            <span>Milk Cream Donut</span>
+                            <strong>우유 생크림 도넛</strong>
+                            <p>3,900</p>
+                        </div>
+                        <!-- <div class="text_box02">
+                            <span>Classic Vanilla Donut</span>
+                            <strong>클래식 바닐라 도넛</strong>
+                            <p>3,500</p>
+                        </div>
+                        <div class="text_box03">
+                            <span>Earl Grey Donut</span>
+                            <strong>얼그레이 도넛</strong>
+                            <p>3,500</p>
+                        </div>
+                        <div class="text_box04">
+                            <span>Choco pudding Donut</span>
+                            <strong>초코푸딩 도넛</strong>
+                            <p>3,900</p>
+                        </div>
+                        <div class="text_box05">
+                            <span>Kaya Butter Donut</span>
+                            <strong>카야버터 도넛</strong>
+                            <p>3,900</p>
+                        </div> -->
+                        <div class="arrows">
+                            <i class="xi-arrow-left left"></i>
+                            <i class="xi-arrow-right right"></i>
+                        </div>
+                    </div>
+                    <div class="right_box">
+                        <ul>
+                            <li><a href="#"><img src="./image/inner01.jpg" alt=""></a></li>
+                            <li><a href="#"><img src="./image/inner02.jpg" alt=""></a></li>
+                            <li><a href="#"><img src="./image/inner03.jpg" alt=""></a></li>
+                            <li><a href="#"><img src="./image/inner04.jpg" alt=""></a></li>
+                            <li><a href="#"><img src="./image/inner05.jpg" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="goods_wrap">
+                    <h2>OUR BEST GOODS</h2>
+                </div>
+            </section>
+            <section class="mainEvent">
+                <h2>EVENT</h2>
+                <div class="innerEvent">
+                    <ul>
+                        <li><a href="#"><img src="./image/event01.png" alt=""></a></li>
+                        <li><a href="#"><img src="./image/event02.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="./image/event03.png" alt=""></a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="mainInstagram">
+                <h2>INSTAGRAM</h2>
+                <div class="insta_wrap">
+                    <ul>
+                        <l1><a href="#"><img src="./image/insta01.jpg" alt=""></a></l1>
+                        <l1><a href="#"><img src="./image/insta02.jpg" alt=""></a></l1>
+                        <l1><a href="#"><img src="./image/insta03.jpg" alt=""></a></l1>
+                        <l1><a href="#"><img src="./image/insta04.jpg" alt=""></a></l1>
+                        <l1><a href="#"><img src="./image/insta05.jpg" alt=""></a></l1>
+                        <l1><a href="#"><img src="./image/insta06.jpg" alt=""></a></l1>
+                        <l1><a href="#"><img src="./image/insta07.jpg" alt=""></a></l1>
+                        <l1><a href="#"><img src="./image/insta08.jpg" alt=""></a></l1>
+                        <l1><a href="#"><img src="./image/insta09.jpg" alt=""></a></l1>
+                        <l1><a href="#"><img src="./image/insta10.jpg" alt=""></a></l1>
+                        <l1><a href="#"><img src="./image/insta11.jpg" alt=""></a></l1>
+                        <l1><a href="#"><img src="./image/insta12.jpg" alt=""></a></l1>
+                    </ul>
+                </div>
+            </section>
+            <section class="mainNews">
+                <div class="news_wrap">
+                    <div class="news_left">
+                        <h2>Sign up newsletter</h2>
+                        <p>메일주소를 남겨주시면 회원가입 없이</br>
+                            노티드의 신제품, 이벤트 소식을 받아보실 수 있습니다.</p>
+                    </div>
+                    <div class="newx_right">
+                        <form action="" id="search">
+                            <input type="text"><button class="btn">search</button>
+                        </form>
+                        <p>개인정보 수집 및 이용에 동의합니다.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer_inner">
+                <div class="footer_top">
+                    <ul>
+                        <li><a href="#">1:1문의</a></li>
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">자주묻는질문</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">위치기반서비스이용약관</a></li>
+                    </ul>
+                </div>
+                <div class="footer_bot">
+                    <ul>
+                        <li><a href="#">회사명 : 노티드(주식회사 지에프에프지)</a></li>
+                        <li><a href="#">대표이사명 : 이준범</a></li>
+                        <li><a href="#">사업자등록번호 : 248-81-00620</a></li>
+                        <li><a href="#">통신판매업신고번호 : 2020-서울강남-02297</a></li>
+                        <li><a href="#">주소 : 서울특별시 강남구 도산대로51길 16</a></li>
+                    </ul>
+                </div>
+            </div>
+            &copy; Jnag.
+        </footer>
     </div>
 </body>
 
